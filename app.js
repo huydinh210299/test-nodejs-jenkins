@@ -14,7 +14,7 @@ app.engine('mustache', hoganMiddleware.__express);
 app.use(post);
 app.use((req,res,next)=>{
 	res.status(404);
-	res.send('<h1>Page not found</h1>');
+	res.send('<h1>Page not found cc</h1>');
 
 });
 
